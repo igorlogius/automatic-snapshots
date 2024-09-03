@@ -1,0 +1,31 @@
+{
+  "author": "igorlogius",
+  "homepage_url": "https://github.com/igorlogius/automatic-snapshots",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_area": "navbar",
+    "theme_icons": [
+      {
+        "light": "dark.png",
+        "dark": "icon.png",
+        "size": 128
+      }
+    ]
+  },
+  "commands": {
+    "_execute_browser_action": {}
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "Automatic Snapshots",
+  "description": "Automatically save snapshots of the current active tab visible area with a custom delay",
+  "permissions": ["storage", "tabs", "<all_urls>"],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "version": "1.0.1"
+}
