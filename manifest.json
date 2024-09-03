@@ -22,7 +22,7 @@
   },
   "manifest_version": 2,
   "name": "Automatic Snapshots",
-  "description": "Automatically save snapshots of the current active tab visible area with a custom delay",
+  "description": "Automatically save snapshots of the current active tabs visible area with a custom delay",
   "permissions": ["storage", "tabs", "<all_urls>"],
   "options_ui": {
     "page": "options.html"

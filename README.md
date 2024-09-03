@@ -6,7 +6,7 @@ Automatically save snapshots of the current active tab visible area with a custo
 
 <b>Short Demo Video: </b>
 
-tbd.
+https://github.com/user-attachments/assets/c31c357d-6656-469c-9d17-f9e670734435
 
 <b>Usage:</b>
 <ol>
