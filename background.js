@@ -40,6 +40,8 @@ browser.browserAction.onClicked.addListener(async () => {
 });
 
 async function autoSnap() {
+    browser.browserAction.disable();
+
   const tabs = await browser.tabs.query({ active: true, currentWindow: true });
 
   if (tabs.length !== 1) {
@@ -77,6 +79,10 @@ async function autoSnap() {
   } catch (e) {
     console.error(e);
   }
+
+  setTimeout( () => {
+      browser.browserAction.enable();
+  },1000);
 }
 
 async function handleStartup() {
